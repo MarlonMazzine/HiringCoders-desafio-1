@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import * as S from "./styled";
 import sapatoFeminino from "../../assets/women-s-beige-low-heel-shoes-fashion.jpg";
 import sandaliaFeminina from "../../assets/simple-white-sandals-summer-footwear-fashion (1).jpg";
 import tenisUnisex from "../../assets/white-trainer-sneakers-unisex-footwear-fashion.jpg";
@@ -87,8 +86,8 @@ export default function Home() {
 						</div>
 					</div>
 					<div style={{ width: "300px", height: "500px" }}>
+						{/* <a href='https://br.freepik.com/fotos/foto'>Foto foto criado por rawpixel.com - br.freepik.com</a> */}
 						<div class="card">
-							{/* <a href='https://br.freepik.com/fotos/foto'>Foto foto criado por rawpixel.com - br.freepik.com</a> */}
 							<img
 								src={tenisUnisex}
 								alt="Avatar"
